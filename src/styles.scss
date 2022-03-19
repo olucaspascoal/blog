@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500&display=swap');
+
+*{
+    margin:  0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+/* Cores */
+$color-purple:    #574AE8;
+$color-white:     #FFFFFF;
+$color-white-2:   #F9F9F9;
+$color-white-3:   #F3F5F7;
+$color-gray:      #717171;
+$color-gray-dark: #1A202C;
+
+$color-gradient: linear-gradient(270deg, #3EA1DB 0%, #574AE8 100%);
+
+
+/* Variáveis */
+$padding: calc(100vw - 90vw);
+
+
+body{
+    background-color: $color-white-3;
+}

@@ -1,0 +1,43 @@
+@import '../../styles.scss';
+
+.header{
+    padding: 2rem $padding;
+    background: $color-gradient;
+    
+    &-text{
+        display: flex;
+        justify-content: space-between;
+        & h2{
+            font-weight: 400;
+            color: $color-white;
+        }
+    }
+
+    &-input{
+        width: 100%;
+        border: none;
+        color: $color-white;
+        outline: none;
+        font-size: 16px;
+        margin-top: 3rem;
+        border-radius: 4px;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        background-position: 10px 10px; 
+        background-color: rgba($color-white, 0.2);
+        background-image: url('../../assets/search.png');   
+    }
+    ::placeholder {
+        color: rgba($color-white, 0.5);
+        opacity: 1; /* Firefox */
+    }
+      
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+       color: rgba($color-white, 0.5);
+    }
+      
+    ::-ms-input-placeholder { /* Microsoft Edge */
+       color: rgba($color-white, 0.5);
+    }
+}
