@@ -1,27 +1,39 @@
-# Blog
+<div align="center">
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+  # 💻 Site | Blog
+  [![Generic badge](https://img.shields.io/badge/Made%20by-Lucas%20Pascoal-purple.svg)](https://shields.io/)  
+  [![wakatime](https://wakatime.com/badge/user/ae0cdf89-1fb6-4933-9a13-aed46d581a32/project/ea0f944a-795a-4b70-a20e-f7b17e101bd4.svg)](https://wakatime.com/badge/user/ae0cdf89-1fb6-4933-9a13-aed46d581a32/project/ea0f944a-795a-4b70-a20e-f7b17e101bd4)
+  
+</div>
 
-## Development server
+## :rocket: Tecnologias
+- [x] Angular
+- [x] HTML
+- [x] SCSS
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Link para visualização: #
 
-## Code scaffolding
+## :computer: Design
+<div align="center">
+  
+  ![image](https://user-images.githubusercontent.com/66574231/159145097-1e309de3-855e-428d-a76a-693abd867d0b.png)
+  
+  Design by <a href="https://github.com/iuricode"> Iuri Silva </a> | <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?node-id=0%3A1"> Figma </a>
+</div>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## ⚡
+```sh
+git clone https://github.com/olucaspascoal/blog.git`
+```
+```sh
+cd blog
+```
+```sh
+npm install
+```
+```sh
+npm start
+```
 
-## Build
+Navigate to `http://localhost:4200/`
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
